@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 250px;
+      margin: 0;
+    }
+    p, h1, h2, h3, h4, h5,h6 {
+      margin: 0;
+    }
+
+    .card {
+      display: flex;
+      height: 100px;
+      padding: 10px;
+    }
+
+    .card-item--right {
+      margin-left: 10px;
+    }
+
+    .card-item--image {
+      width: 75px;
+      height: 100%
+    }
+
+    ul {
+      padding-left: 0;
+      margin-left: 15px;
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="card-item--left">
+    <img id="character-icon" alt="game of thrones character icon" class="card-item--image">
+  </div>
+  <div class="card-item--right">
+    <h3 class="card-item--heading" id="character-name"> Place Holder Text</h3>
+    <p id="house-name">Place Holder Text</p>
+    <ul id="titles"></ul>
+  </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
